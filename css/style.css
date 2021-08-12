@@ -521,7 +521,7 @@ img {
 }
 .link-social-footer:hover,
 .link-social-footer:focus {
-  background-color: royalblue;
+  background-color: var(--accent-color);
 }
 
 .icon-social-footer {
@@ -539,11 +539,6 @@ img {
   justify-content: flex-end;
   margin-left: auto;
 }
-/* .form-footer {
-  margin-left: 0;
-  margin: 0;
-  padding: 0;
-} */
 
 .form-title {
   line-height: 1.15;
@@ -567,9 +562,23 @@ img {
   border-radius: 4px;
   margin-left: 12px;
   position: relative;
+  padding-right: 62px;
+  padding-left: 29px;
+  text-decoration: none;
+  border: none;
 }
 .footer-send-btn {
   position: absolute;
+  top: 50%;
+  right: 28px;
+  display: inline-block;
+  transform: translateY(-50%);
+}
+
+.form-fotter-btn:hover,
+.form-fotter-btn:focus {
+  background-color: #188ce8;
+  text-decoration: none;
 }
 .form-imput {
   width: 358px;
@@ -580,6 +589,8 @@ img {
   line-height: 20px;
   letter-spacing: 0.03em;
   margin: 0;
+  text-decoration: none;
+  border: none;
 }
 
 /* Модалка */
