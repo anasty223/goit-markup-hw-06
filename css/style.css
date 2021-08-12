@@ -438,12 +438,16 @@ img {
 .section-footer {
   background: var(--hero-footer-color);
   padding-bottom: 60px;
-  padding-top: 60px;
+  padding-top: 72px;
 }
 .footer-box {
   display: flex;
-  justify-content: baseline;
-  align-items: baseline;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.box {
+  display: flex;
 }
 .logo-footer {
   color: var(--accent-color);
@@ -528,6 +532,54 @@ img {
   display: block;
   align-items: center;
   justify-content: center;
+}
+
+.form-field {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+/* .form-footer {
+  margin-left: 0;
+  margin: 0;
+  padding: 0;
+} */
+
+.form-title {
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--whitw-color-texte);
+  font-style: normal;
+}
+
+.form-fotter-btn {
+  width: 200px;
+  height: 50px;
+  background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border: none;
+  color: var(--whitw-color-texte);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-left: 12px;
+  position: relative;
+}
+.footer-send-btn {
+  position: absolute;
+}
+.form-imput {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  padding-left: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  margin: 0;
 }
 
 /* Модалка */
