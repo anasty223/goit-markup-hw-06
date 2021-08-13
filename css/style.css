@@ -644,7 +644,85 @@ img {
   justify-content: center;
   align-items: center;
 }
-.icon-close {
+.modal-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(33, 33, 33, 1);
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.form-list {
+  position: relative;
+}
+.form-label {
+  display: flex;
+  flex-direction: column;
+  margin-left: 41px;
+  margin-right: 39px;
+  position: absolute;
+  top: -15px;
+  left: 0;
+}
+
+.form-input-modal {
+position: relative;
+
+  width: 448px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.form-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.form-label-textarea {
+  display: flex;
+  flex-direction: column;
+  margin-left: 41px;
+  margin-right: 39px;
+  position: absolute;
+  top: -15px;
+  left: 0;
+}
+.form-input-textarea {
+  width: 448px;
+  height: 120px;
+  resize: none;
+  padding: 12px 16px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+.form-checkbox {
+  margin-left: 43px;
+   margin-bottom: 30px;
+}
+.form-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+
+  display: block;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--whitw-color-texte);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  width: 200px;
+  height: 50px;
+  padding: 10px 55px 10px 56px;
+  margin: auto;
 }
 
 /* Портфолио */
