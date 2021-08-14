@@ -464,48 +464,53 @@
                     <div class="form-list">
                         <input type="name" name="name" id="name" class="form-input-modal">
                         <label for="name" class="form-label">Имя</label>
-                     
-                        <svg width="18" height="18" >
-                            <use  class="form-icon" href="./image/sprite.svg#icon-person-black-18dp-1"></use>
+                    <div class="modal-icon-box">
+                        <svg width="18" height="18" class="form-icon">
+                            <use   href="./image/sprite.svg#icon-person-black-18dp-1"></use>
                         </svg>
-                        
+                    </div>
                     </div>
     
                     <div class="form-list">
                         <input type="tel" name="tel" id="tel" class="form-input-modal">
                         <label for="tel" class="form-label">Телефон</label>
-                        
-                        <svg width="18" height="18" >
-                            <use class="form-icon" href="./image/sprite.svg#icon-phone-black-18dp-1"></use>
+                        <div class="modal-icon-box">
+                        <svg width="18" height="18" class="form-icon">
+                            <use  href="./image/sprite.svg#icon-phone-black-18dp-1"></use>
                         </svg>
-                    
+                        </div>
                     </div>
+                    
 
                     <div class="form-list">
                         <input type="email" name="email" id="email" class="form-input-modal">
                         <label for="email" class="form-label">Почта</label>
                         
-                      
-                        <svg width="18" height="18">
-                            <use class="form-icon" href="./image/sprite.svg#icon-email-black-18dp-1"></use>
+                    <div class="modal-icon-box">
+                        <svg width="18" height="18" class="form-icon">
+                            <use  href="./image/sprite.svg#icon-email-black-18dp-1"></use>
                         </svg>
-                    
+                    </div>
                     </div>
 
                     <div class="form-list">
+                        <textarea class="form-input-textarea" name="feedback" id="" cols="30" rows="10" placeholder="Введите текст" ></textarea>
                     <label class="form-label-textarea">Комментарий</label>
-                        <textarea name="feedback" id="" cols="30" rows="10" placeholder="Введите текст" class="form-input-textarea"></textarea>
+                        
                     
                     </div>
 
-                    <div class="form-list">
-                        <input class="form-checkbox" type="checkbox" name="checkbox" id="checkbox" />
-                        <label for="checkbox" class="form-label"></label>
-                            
-                        <span>Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a> </span>
+                    <div class="form-list checkbox">
+
                         
+                        <label for="checkbox" class="form-label-checkbox">
+                        <input class="form-checkbox" type="checkbox" name="checkbox" id="checkbox" />
+                        <span class="icon-checkbox"></span>
+                      
+                        Соглашаюсь с рассылкой и принимаю <a class="modal-policy-link" href="#"> Условия договора</a>
+                        </label>
                     </div>
-               i
+               
                 <button type="submit" class="form-btn">Отправить</button>
             </form>
 
