@@ -23,7 +23,7 @@
             
             <ul class="nav-container list " >
                 <li class="item" ><a href="#" class="link-nav current" >Студия</a></li>
-                <li class="item"><a href="./portfolio.html"class="link-nav">Портфолио</a></li>
+                <li class="item"><a href="./portfolio.html" class="link-nav">Портфолио</a></li>
                 <li class="item"><a href="#" class="link-nav">Контакты</a></li>
                     
             </ul>
@@ -57,7 +57,9 @@
 
         <div class="container  ">
             <h1 class="title-hero">Эффективные решения для вашего бизнеса</h1>
-            <button data-modal-open type="button" class="hero-button" >Заказать услугу</button>
+
+            <button data-modal-open type="button" class="hero-button">Заказать услугу</button>
+
         </div>
         </section>
         
@@ -387,7 +389,7 @@
         <address>
             <ul class="adress-box list">                
             <li class="list-adress"><p>г. Киев, пр-т Леси Украинки, 26</p></li>
-            <li class="list-adress"><a href="mailto:info@example.com "class="contact-footer" >info@example.com</a></li>
+            <li class="list-adress"><a href="mailto:info@example.com " class="contact-footer" >info@example.com</a></li>
             <li class="list-adress"><a href="tel:+380991111111 " class="contact-footer">+38 099 111 11 11</a></li>
             </ul>
         </address>
@@ -460,19 +462,19 @@
             <form action="#" class="form-modal">
                 
                     <div class="form-list">
-                        <input type="name" name="name" id="name" class="form-input-modal">
-                        <label for="name" class="form-label">Имя</label>
-                    <div class="modal-icon-box">
+                        <label for="name-modal" class="form-label">Имя</label>
+                        <div class="modal-icon-box">
+                        <input type="text" name="name" id="name-modal" class="form-input-modal">
                         <svg width="18" height="18" class="form-icon">
                             <use   href="./image/sprite.svg#icon-person-black-18dp-1"></use>
                         </svg>
-                    </div>
+                         </div>
                     </div>
     
                     <div class="form-list">
-                        <input type="tel" name="tel" id="tel" class="form-input-modal">
                         <label for="tel" class="form-label">Телефон</label>
                         <div class="modal-icon-box">
+                        <input type="tel" name="tel" id="tel" class="form-input-modal">
                         <svg width="18" height="18" class="form-icon">
                             <use  href="./image/sprite.svg#icon-phone-black-18dp-1"></use>
                         </svg>
@@ -481,21 +483,18 @@
                     
 
                     <div class="form-list">
-                        <input type="email" name="email" id="email" class="form-input-modal">
                         <label for="email" class="form-label">Почта</label>
-                        
-                    <div class="modal-icon-box">
+                        <div class="modal-icon-box">
+                        <input type="email" name="email" id="email" class="form-input-modal">
                         <svg width="18" height="18" class="form-icon">
                             <use  href="./image/sprite.svg#icon-email-black-18dp-1"></use>
                         </svg>
-                    </div>
+                        </div>
                     </div>
 
-                    <div class="form-list">
-                        <textarea class="form-input-textarea" name="feedback" id=""  rows="9" placeholder="Введите текст" ></textarea>
-                    <label class="form-label-textarea">Комментарий</label>
-                        
-                    
+                    <div class="form-list">   
+                    <label class="form-label">Комментарий</label>
+                        <textarea class="form-input-textarea" name="feedback"  rows="9" placeholder="Введите текст"></textarea>
                     </div>
 
                     <div class="form-list checkbox">
@@ -504,10 +503,7 @@
                         <label for="checkbox" class="form-label-checkbox">
                             <input class="form-checkbox" type="checkbox" name="checkbox" id="checkbox" />
                            <span class="icon-check"></span>
-                                <svg class="checkbox-icon" width="16" height="15">
-                                    <use href="./image/icons.svg#icon-checkbox-on"></use>
-                                </svg>
-                        
+                             
                             Соглашаюсь с рассылкой и принимаю <a class="modal-policy-link" href="#"> Условия договора</a>
                         </label>
                     </div>
